@@ -31,8 +31,7 @@ The notebooks below will give you a quick tour of the key features of the langua
 | 2 | Python control structures | [nb/w02_python_control_structures.ipynb](nb/w02_python_control_structures.ipynb)
 | 3 | Key Python data structures | [nb/w02_python_data_structures.ipynb](nb/w02_python_data_structures.ipynb)
 | 4 | Core Python libraries | [nb/w02_python_core_libraries.ipynb](nb/w02_python_core_libraries.ipynb)
-| 5 | More Python 3 | [nb/w02_python3.ipynb](nb/w02_python3.ipynb)
-| 6 | Advance Topic: Object-Oriented Programming | [nb/w02_python3.ipynb](nb/w02_oop.ipynb) |
+| 5 | Advance Topic: Object-Oriented Programming | [nb/w02_python3.ipynb](nb/w02_oop.ipynb) |
 
 ## Anaconda and Python
 
