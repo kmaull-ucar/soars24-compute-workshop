@@ -1,0 +1,668 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Tools, Guides and Inspiration &#8212; NSF SOARS 2024 Computational Workshops</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tools';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="welcome.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="NSF SOARS 2024 Computational Workshops - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="NSF SOARS 2024 Computational Workshops - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="welcome.html">
+                    Welcome to NSF SOARS 2024 Computational Thinking Workshop
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/kmaull-ucar/SOARS 2024 Computational Workshops" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/kmaull-ucar/SOARS 2024 Computational Workshops/issues/new?title=Issue%20on%20page%20%2Ftools.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/tools.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Tools, Guides and Inspiration</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Tools, Guides and Inspiration</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#productivity">Productivity</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#python-and-jupyter">Python and Jupyter</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#core-geoscience-python-libraries">Core Geoscience Python Libraries</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#research-discovery">Research Discovery</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scientific-workflows">Scientific Workflows</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-tools">AI Tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citation-and-bibliographic-management">Citation and Bibliographic Management</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#code-management">Code Management</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#writing">Writing</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-and-data-analytics">Data Science and Data Analytics</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#training">Training</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="tools-guides-and-inspiration">
+<h1>Tools, Guides and Inspiration<a class="headerlink" href="#tools-guides-and-inspiration" title="Link to this heading">#</a></h1>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="productivity">
+<h1>Productivity<a class="headerlink" href="#productivity" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/gorhill/uBlock">uBlock origin (uBO)</a>: ads are productivity busters whether we agree or not – save the bandwidth with this excellent <em>free and open source</em> tool and consider the hit ads make to your online productivity and privacy <em>“… uBO’s primary goal is to help users neutralize [these] privacy-invading methods in a way that welcomes those users who do not wish to use more technical means.”</em></p></li>
+<li><p><a class="reference external" href="https://code.visualstudio.com">vscode (Microsoft download, non-free license)</a> or <a class="reference external" href="https://vscodium.com">vscodium (telemetry free, open source license)</a>: everyone needs a good text editor</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="python-and-jupyter">
+<h1>Python and Jupyter<a class="headerlink" href="#python-and-jupyter" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jupyter.org/">Project Jupyter</a></p>
+<ul>
+<li><p><a class="reference external" href="https://mybinder.org">Binder</a>:  launch reproducible notebooks interactively online</p></li>
+<li><p><a class="reference external" href="https://nbviewer.org">Jupyter nbviewer</a>: make your notebooks render better on the web with nbviewer</p></li>
+<li><p><a class="reference external" href="https://github.com/jupyter/jupyter/wiki#general-topics-in-scientific-computing">Gallery of Interesting Jupyter Notebooks</a>: a large compendium of notebooks of all kinds (many on Github)</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://maggieavery.github.io/PyEarth_EPS88_jupyterbook/intro.html">PyEarth</a>: A Python Introduction to Earth Science (Course)</p></li>
+</ul>
+<section id="core-geoscience-python-libraries">
+<h2>Core Geoscience Python Libraries<a class="headerlink" href="#core-geoscience-python-libraries" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://unidata.github.io/MetPy/latest/">MetPy</a>: a collection of tools in Python for reading, visualizing and performing calculations with weather data</p></li>
+<li><p><a class="reference external" href="https://earthpy.readthedocs.io/en/latest/index.html">EarthPy</a>: makes it easier to plot and manipulate spatial data in Python</p></li>
+<li><p><a class="reference external" href="https://geopandas.org/">GeoPandas</a>: makes working with geospatial data in python easier</p></li>
+<li><p><a class="reference external" href="https://rasterio.readthedocs.io/en/latest/index.html">Rasterio</a>:  reads and writes GeoTIFF and other gridded/raster data and provides a Python API based on N-D arrays</p></li>
+<li><p><a class="reference internal" href="#"><span class="xref myst">ArcPy</span></a>: provides support for ArcGIS manipulation</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="research-discovery">
+<h1>Research Discovery<a class="headerlink" href="#research-discovery" title="Link to this heading">#</a></h1>
+<p>There are a number of research discover tools that you may have access to
+on your campus, but here are some that do not require subscriptions (to search):</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://semanticscholar.org">SemanticScholar</a>: exceptional tool for modern discovery tactics</p></li>
+<li><p><a class="reference external" href="https://dimensions.ai">Dimensions.ai</a>: excellent tool for additional discovery; many additional features for discovering domain research</p></li>
+<li><p>GoogleScholar: classic tool, but has poor integration with DOI importation and can provide spurious results; often useful for finding author PDFs when publisher version is paywalled</p></li>
+<li><p><a class="reference external" href="https://github.com/ZoranPandovski/awesome-open-science">Awesome Open Science (Github)</a>: a massively list of open source, open science tools, links and stuff</p></li>
+<li><p><a class="reference external" href="https://github.com/softwareunderground/awesome-open-geoscience">Awesome Open Geoscience</a>: an excellent geo-specific resource that you cannot miss out on</p></li>
+</ul>
+<section id="scientific-workflows">
+<h2>Scientific Workflows<a class="headerlink" href="#scientific-workflows" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://osf.io/">Open Science Framework</a>: designed to promote computational workflows, transparency and collaboration across many disciplines</p></li>
+<li><p><a class="reference external" href="https://deepnote.com/blog/share-jupyter-notebooks">Deepnote</a>: share notebooks more effectively (commercial tool)</p></li>
+</ul>
+</section>
+<section id="ai-tools">
+<h2>AI Tools<a class="headerlink" href="#ai-tools" title="Link to this heading">#</a></h2>
+<p>There are a number of emerging AI tools, not the least of which is <a class="reference internal" href="#"><span class="xref myst">ChatGPT</span></a>.  Here are others you may also want to know about:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.phind.com/">phind</a>: an AI search engine for developers and great resource to help with your coding experiences</p></li>
+<li><p><a class="reference external" href="https://github.com/Significant-Gravitas/Auto-GPT">autogpt</a>: AI automation using GPT technology stack</p></li>
+<li><p><a class="reference external" href="https://github.com/imartinez/privateGPT">privateGPT</a>: feeling like running your own LLM? Here’s your chance to have a conversation with your own data</p></li>
+</ul>
+</section>
+<section id="citation-and-bibliographic-management">
+<h2>Citation and Bibliographic Management<a class="headerlink" href="#citation-and-bibliographic-management" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://zotero.org">Zotero</a>: free, very useful and low barrier bibliographic management</p>
+<ul>
+<li><p><a class="reference external" href="https://www.zotero.org/download/">use Zotero browser plugin</a>: essential, must-have tool!</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://mendeley.com">Mendeley</a>: excellent bibliographic and research management platform</p></li>
+</ul>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="code-management">
+<h1>Code Management<a class="headerlink" href="#code-management" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p><a class="reference external" href="https://git-scm.org">git</a>: the open-source distributed revision control system for everything technical and upon which many front-ends are built; learning it will change your life</p></li>
+<li><p><a class="reference external" href="https://github.com">Github</a>: enterprise-grade Git hosting; the “OG” of open source Git hosting small and large</p></li>
+<li><p><a class="reference external" href="https://gitlab.com">Gitlab</a>: enterprise-grade Git hosting; can be <a class="reference external" href="https://about.gitlab.com/install/">Linux self-hosted</a>, but without some effort</p></li>
+<li><p><a class="reference external" href="https://bitbucket.org/">Bitbucket</a>: one of the big three and still an excellent alternative</p></li>
+<li><p><a class="reference external" href="https://codeberg.org/">Codeberg</a>: privacy-respecting open source code hosting</p></li>
+<li><p><a class="reference external" href="https://gitea.org">Gitea</a>: feeling like self-hosting? – this open source project is an awesome lightweight alternative for solo and small teams and gives you full control of your code hosting (not for the faint at heart)</p></li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="writing">
+<h1>Writing<a class="headerlink" href="#writing" title="Link to this heading">#</a></h1>
+<ul class="simple">
+<li><p>Distraction-free writing: <a class="reference external" href="https://knowledge.wharton.upenn.edu/article/deep-work-the-secret-to-achieving-peak-productivity/">theory</a>, <a class="reference external" href="https://thinkwritten.com/distraction-free-writing/">practice</a> and some <a class="reference external" href="https://">fun</a></p></li>
+<li><p><a class="reference external" href="https://www.markdownguide.org/">Markdown</a>: easy, distration-free markup writing for durability and portability; takes minutes to learn</p></li>
+<li><p><a class="reference external" href="https://pandoc.org">Pandoc</a>: free, open source conversion tool “swiss army knife” of document formats</p></li>
+<li><p>Scientific writing in Markdown</p>
+<ul>
+<li><p><a class="reference external" href="https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Sustainable Authorship in Plain Text using Pandoc and Markdown</a> by Dennis Tennen and Grant Wythoff</p></li>
+<li><p><a class="reference external" href="https://libscie.github.io/rmarkdown-workshop/handout.html">RMarkdown for writing reproducible scientific papers</a> by Mike Frank &amp; Chris Hartgerink</p></li>
+<li><p><a class="reference external" href="https://writing-resources.github.io/awesome-scientific-writing/">Awesome Scientific Writing</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.latex-project.org/"><span class="math notranslate nohighlight">\(\LaTeX\)</span></a>: a rabbit hole perhaps not worth going down … but with a cheat sheet you can be used to seemlessly integrate mathematics into your Markdown writing</p>
+<ul>
+<li><p><a class="reference external" href="https://joshua.smcvt.edu/undergradmath/undergradmath.pdf">LaTeX Math cheat sheet</a> for undergraduates</p></li>
+<li><p><a class="reference external" href="https://overleaf.com">OverLeaf</a> : helps overcome some of the LaTeX barriers and encourage collaboration</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="data-science-and-data-analytics">
+<h1>Data Science and Data Analytics<a class="headerlink" href="#data-science-and-data-analytics" title="Link to this heading">#</a></h1>
+<section id="training">
+<h2>Training<a class="headerlink" href="#training" title="Link to this heading">#</a></h2>
+<p><strong>Python and Geoscience</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://projectpythia.org">Project Pythia</a>: education and training hub for the Geoscience Python community – a truly wonderful resource that you must know about</p></li>
+<li><p><a class="reference external" href="https://softwarecarpetr.org">Software Carpentry</a>: begin the journey into a more experienced and confident software developer</p>
+<ul>
+<li><p><a class="reference external" href="https://swcarpentry.github.io/git-novice/">Version Control with git</a></p></li>
+<li><p><a class="reference external" href="https://swcarpentry.github.io/python-novice-inflammation/">Programming with Python</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://datacarpentry.org/lessons/">Data Carpentry</a>: level up your data science and analytics skill with these free courses and resources</p>
+<ul>
+<li><p><a class="reference external" href="https://datacarpentry.org/organization-geospatial/index.html">Introduction to Geospatial Concepts</a>:</p></li>
+</ul>
+</li>
+<li><p><a class="reference external" href="https://www.earthdatascience.org">EarthLab</a>: free, online courses to learn how to use earth science data in Python and R</p>
+<ul>
+<li><p><a class="reference external" href="https://www.earthdatascience.org/courses/intro-to-earth-data-science/">Earth Data Analytics Online Certificate</a>: an excellent resource to be aware of even if you don’t want to get the certificate!</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Machine Learning and AI</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jxareas/Machine-Learning-Notebooks">Andrew Ng’s Machine Learning Course Notebooks</a>: collection of excellent notebooks on introductory machine learning</p></li>
+<li><p><a class="reference external" href="https://github.com/earth-artificial-intelligence/earth_ai_book_materials">Earth Artificial Intelligence</a>: great book on AI in Geosciences</p></li>
+</ul>
+</section>
+<section id="tools">
+<h2>Tools<a class="headerlink" href="#tools" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://openrefine.org">OpenRefine</a>: free and open source data cleaning and transformation</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Tools, Guides and Inspiration</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#productivity">Productivity</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#python-and-jupyter">Python and Jupyter</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#core-geoscience-python-libraries">Core Geoscience Python Libraries</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#research-discovery">Research Discovery</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scientific-workflows">Scientific Workflows</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-tools">AI Tools</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citation-and-bibliographic-management">Citation and Bibliographic Management</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#code-management">Code Management</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#writing">Writing</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-science-and-data-analytics">Data Science and Data Analytics</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#training">Training</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tools">Tools</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Keith Maull & The NSF SOARS Program
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
