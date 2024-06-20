@@ -3,17 +3,19 @@ Tools, Guides and Inspiration
 
 # Productivity
 
-* [uBlock origin (uBO)](https://github.com/gorhill/uBlock): ads are productivity busters whether we agree or not -- save the bandwidth with this excellent _free and open source_ tool and consider the hit ads make to your online productivity and privacy _"... uBO's primary goal is to help users neutralize [these] privacy-invading methods in a way that welcomes those users who do not wish to use more technical means."_
-* [vscode (Microsoft download, non-free license)](https://code.visualstudio.com) or [vscodium (telemetry free, open source license)](https://vscodium.com): everyone needs a good text editor
+* **[browser extension]** [uBlock origin (uBO)](https://github.com/gorhill/uBlock): ads are productivity busters whether we agree or not -- save the bandwidth with this excellent _free and open source_ tool and consider the hit ads make to your online productivity and privacy _"... uBO's primary goal is to help users neutralize [these] privacy-invading methods in a way that welcomes those users who do not wish to use more technical means."_
+* **[text editor]** [vscode (Microsoft download, non-free license)](https://code.visualstudio.com) or [vscodium (telemetry free, open source license)](https://vscodium.com): everyone needs a good text editor
 
 
 # Python and Jupyter
 
+## Jupyter Notebooks and Jupyter Books
 * [Project Jupyter](https://jupyter.org/)
     * [Binder](https://mybinder.org):  launch reproducible notebooks interactively online
     * [Jupyter nbviewer](https://nbviewer.org): make your notebooks render better on the web with nbviewer
     * [Gallery of Interesting Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki#general-topics-in-scientific-computing): a large compendium of notebooks of all kinds (many on Github)
-* [PyEarth](https://maggieavery.github.io/PyEarth_EPS88_jupyterbook/intro.html): A Python Introduction to Earth Science (Course)
+* [Jupyter Books](https://jupyterbook.org/en/stable/intro.html): take your notebooks to the next level and set your project up for publication-grade online and offline presentation
+    * [Gallery of Jupyter Books](https://executablebooks.org/en/latest/gallery/)
 
 ### Core Geoscience Python Libraries
 
@@ -41,11 +43,12 @@ on your campus, but here are some that do not require subscriptions (to search):
 
 ## AI Tools
 
-There are a number of emerging AI tools, not the least of which is [ChatGPT]().  Here are others you may also want to know about:
+There are a number of emerging AI tools, not the least of which is [ChatGPT](https://openai.com).  Here are others you may also want to know about:
 
 * [phind](https://www.phind.com/): an AI search engine for developers and great resource to help with your coding experiences
 * [autogpt](https://github.com/Significant-Gravitas/Auto-GPT): AI automation using GPT technology stack
-* [privateGPT](https://github.com/imartinez/privateGPT): feeling like running your own LLM? Here's your chance to have a conversation with your own data
+* [privateGPT](https://github.com/imartinez/privateGPT): feeling like running your own LLM? Here's your chance to have a conversation with your own data DIY-style
+* [open-webui](https://openwebui.com/): user-friendly open source web-based UI you can run locally for your local LLMs; it's magic, but not really
 
 ## Citation and Bibliographic Management
 
@@ -59,8 +62,8 @@ There are a number of emerging AI tools, not the least of which is [ChatGPT](). 
 * [Github](https://github.com): enterprise-grade Git hosting; the "OG" of open source Git hosting small and large
 * [Gitlab](https://gitlab.com): enterprise-grade Git hosting; can be [Linux self-hosted](https://about.gitlab.com/install/), but without some effort 
 * [Bitbucket](https://bitbucket.org/): one of the big three and still an excellent alternative
-* [Codeberg](https://codeberg.org/): privacy-respecting open source code hosting
-* [Gitea](https://gitea.org): feeling like self-hosting? -- this open source project is an awesome lightweight alternative for solo and small teams and gives you full control of your code hosting (not for the faint at heart)
+* [Codeberg](https://codeberg.org/): privacy-respecting open source code hosting, all repos are free and non-private
+* [Gitea](https://gitea.org): feeling like self-hosting? -- this open source project is an awesome lightweight alternative for DIY solo and small teams and gives you full control of your code hosting (not for the faint at heart)
 
 # Writing
 
@@ -88,6 +91,8 @@ There are a number of emerging AI tools, not the least of which is [ChatGPT](). 
     * [Introduction to Geospatial Concepts](https://datacarpentry.org/organization-geospatial/index.html):
 * [EarthLab](https://www.earthdatascience.org): free, online courses to learn how to use earth science data in Python and R
     * [Earth Data Analytics Online Certificate](https://www.earthdatascience.org/courses/intro-to-earth-data-science/): an excellent resource to be aware of even if you don't want to get the certificate!
+* [PyEarth](https://maggieavery.github.io/PyEarth_EPS88_jupyterbook/intro.html): A Python Introduction to Earth Science (Course)
+
 
 **Machine Learning and AI**
 * [Andrew Ng's Machine Learning Course Notebooks](https://github.com/jxareas/Machine-Learning-Notebooks): collection of excellent notebooks on introductory machine learning

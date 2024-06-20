@@ -1,5 +1,5 @@
 Jupyter Fundamentals
-------  
+======  
 
 ```{card}  
 :class-card: objectives 

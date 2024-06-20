@@ -70,7 +70,7 @@ Wednesdays Noon - 1PM; virtual or in-person
 | 3 | (June 21) <br/> **Python Libraries for Geoscience I: Hands-on Overview**  | Core libraries in Python for Geo; when to use what; resources that you need to know about now; using some libraries in real-world demo |
 |  4    | (July 5) <br/> **Python Libraries for Geoscience II: Hands-on Data**  | Continuation of Geo libraries in Python with a hands-on focus on practical manipulation of data |
 |  5   | (July 12) <br/> **Presenting and Visualization in Python**  | Visualization tools and working in Jupyter for static and dynamic visualization; Pandas library visualization tricks |
-|  5    | (July 19) <br/>**[Research Tools & Workflows: writing, sharing and archiving](./firstyear/week05.md)** | Workflows for sharing, writing and archiving;  Jupyter as a paper-writing platform; reproducibility and Binder;  writing papers from Jupyter; archiving with Zenodo; Developing a consistent workflow for sharing; private v public sharing; reproducibility and Binder; writing papers from Jupyter; archiving with Zenodo |
+|  6    | (July 19) <br/>**[Research Tools & Workflows: writing, sharing and archiving](./firstyear/week05.md)** | Workflows for sharing, writing and archiving;  Jupyter as a paper-writing platform; reproducibility and Binder;  writing papers from Jupyter; archiving with Zenodo; Developing a consistent workflow for sharing; private v public sharing; reproducibility and Binder; writing papers from Jupyter; archiving with Zenodo |
 
 
 
@@ -107,8 +107,8 @@ Wednesdays Noon - 1PM; virtual or in-person
 
 |  **Week** | **Topic**             |   **Content Summary**      |
 |:---------:|-----------------------|----------------------------|
-|  1    | (June 14) <br/>   **[Advanced Workflows Review](./returning/week01.md)** | reviewing Jupyter; understanding complete scientific workflows for archiving, collaboration and publishing; FAIR; research management (Zotero, mindmaps/Obsidian, AI); reviewing advanced writing, publishing and pre-prints; AIs role in your research  |
+|  1   | (June 14) <br/>   **[Advanced Workflows Review](./returning/week01.md)** | reviewing Jupyter; understanding complete scientific workflows for archiving, collaboration and publishing; FAIR; research management (Zotero, mindmaps/Obsidian, AI); reviewing advanced writing, publishing and pre-prints; AIs role in your research  |
 |  2   | (June 21) <br/> **[Advanced Programs in Jupyter/Python](./returning/week02.md)** |  writing your own Python modules; program and complexity management; debugging skills overview |
-| 3 | (July 5) <br/> **[Python for Geoscience: A Deeper Dive](./returning/week03.md)**  | review of core  Python libraries for Geoscience; when to use what  |
+|  3   | (July 5) <br/> **[Python for Geoscience: A Deeper Dive](./returning/week03.md)**  | review of core  Python libraries for Geoscience; when to use what  |
 |  4   | (July 12) <br/> **[Advanced Notebook Techniques](./returning/week04.md)** | review visualization tools;  visualization output in-notebook (multi-target); developing multi-layer notebooks; Jupyter Book for larger scale, advanced notebooks |
-|  5    | (July 19) <br/>**[Open Science](./returning/week05.md)** | review the importance and impact of open science |
+|  5   | (July 19) <br/>**[Open Science](./returning/week05.md)** | review the importance and impact of open science |
